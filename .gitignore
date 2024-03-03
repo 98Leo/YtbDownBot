@@ -5,6 +5,9 @@
 # My images
 /images/
 
+# PyCache
+/__pycache__/
+
 # My database file
 database.sqlite
 
