@@ -2,7 +2,6 @@ import telebot
 from telebot import types
 import sys
 import os
-import config
 import bot_functions as bf
 from configloader import config
 
@@ -73,6 +72,7 @@ def main():
 
     log.info("avarice is started!")
 
+    #Functions of the bot
     @bot.message_handler(commands=["start"])
     def start(message):
         bf.sending_start_message(bot, message, types)

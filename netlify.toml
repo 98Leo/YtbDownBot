@@ -1,0 +1,3 @@
+[build]
+  command = "pip install pyTelegramBotAPI  && python bot.py"
+  functions = "functions"
